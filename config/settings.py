@@ -48,6 +48,10 @@ INSTALLED_APPS = [
     'login_app',
     'chart_of_accounts',
     'journal',
+    'ledgers',
+    'Dr_Cr',
+    'trial_balance',
+    'profit_loss',
 ]
 
 MIDDLEWARE = [
