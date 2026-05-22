@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gf45bnmux6(0mh(21c8vg8jlsgm+0i!p=y2(&^m!vvo#g^1vqd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.19.59.199','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['10.19.59.229','localhost', '127.0.0.1']
 
 
 # Application definition
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     # local apps
     'login_app',
     'chart_of_accounts',
+    'journal',
 ]
 
 MIDDLEWARE = [
@@ -90,7 +91,7 @@ DATABASES = {
         'NAME': 'pharmacy_accounting',
         'USER': 'postgres',
         'PASSWORD': 'postgre',
-        'HOST': '10.19.59.199',
+        'HOST': '10.19.59.229',
         'PORT': '5432',
     }
 }   

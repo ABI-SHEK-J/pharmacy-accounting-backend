@@ -7,5 +7,6 @@ urlpatterns = [
 
     path('api/', include('login_app.urls')),
     path('api/', include('chart_of_accounts.urls')),
+    path('api/', include('journal.urls')),
 
 ]
