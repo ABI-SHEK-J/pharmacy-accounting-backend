@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gf45bnmux6(0mh(21c8vg8jlsgm+0i!p=y2(&^m!vvo#g^1vqd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.19.59.229','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['169.254.43.46','localhost', '127.0.0.1']
 
 
 # Application definition
@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'pharmacy_accounting',
         'USER': 'postgres',
         'PASSWORD': 'postgre',
-        'HOST': '10.19.59.229',
+        'HOST': '169.254.43.46',
         'PORT': '5432',
     }
 }   
